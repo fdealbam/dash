@@ -138,4 +138,4 @@ Werkzeug==1.0.1
 whitenoise==5.2.0
 wincertstore==0.2
 zipp @ file:///tmp/build/80754af9/zipp_1604001098328/work
-ex.psycopg2 @ file: /// tmp / build / 80754af9 / psycopg2_1594305108220 / work -> psycopg2 == 2.8.5
+
