@@ -1,6 +1,9 @@
+
+
+
 import plotly.express as px
 import os
-#import geopandas as gpd
+import geopandas as gpd
 import pandas as pd
 import plotly.graph_objects as go
 import seaborn as sbn
@@ -180,16 +183,4 @@ app.layout = html.Div(children=[
 if __name__ == '__main__':
     app.run_server(debug=True, use_reloader=False)
     app.server.static_folder = 'static'  
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
