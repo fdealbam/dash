@@ -1,15 +1,6 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
-
-
-
 import plotly.express as px
 import os
-import geopandas as gpd
+#import geopandas as gpd
 import pandas as pd
 import plotly.graph_objects as go
 import seaborn as sbn
