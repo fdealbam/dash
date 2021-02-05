@@ -54,7 +54,6 @@ ipython-genutils==0.2.0
 iso3166==1.0.1
 itsdangerous==1.1.0
 jdcal==1.4.1
-jedi==0.17.2
 Jinja2==2.11.3
 jmespath==0.10.0
 jsonpickle==1.4.2
