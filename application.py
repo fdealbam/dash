@@ -20,26 +20,26 @@ from datetime import date
 
 # Abrir BD
 #os.chdir(r"C:\Users\PRIME\AnacondaProjects\Project_curso\\")
-mun = gpd.read_file('00mun.shp') #Para mapas
-base = pd.read_csv('Tabla 1. Variación mensual (AÑO ANTERIOR) (mapas).csv')#, encoding= "Utf-8") #Para mapa
+#mun = gpd.read_file('00mun.shp') #Para mapas
+#base = pd.read_csv('Tabla 1. Variación mensual (AÑO ANTERIOR) (mapas).csv')#, encoding= "Utf-8") #Para mapa
 
 #cdmx_delit = pd.read_excel('cdmx deaths.xlsx')  #Para gráfica
-df2= pd.read_csv("Tabla 2. Delitos Zacatecas (2020)_2.csv")#, encoding= "Latin-1")
+#df2= pd.read_csv("Tabla 2. Delitos Zacatecas (2020)_2.csv")#, encoding= "Latin-1")
 
 
 
 #crear una Gráfica 
 ##################################################################################
 
-pv = pd.pivot_table(df2, index=['Municipio'], columns=['Tipo de delito'], values=['ene-20'],aggfunc=sum, fill_value = 0)
+#pv = pd.pivot_table(df2, index=['Municipio'], columns=['Tipo de delito'], values=['ene-20'],aggfunc=sum, fill_value = 0)
 
-g1 = go.Bar(x=pv.index, y=pv[('ene-20', 'Robo')], name = 'ROBO')
-gr1 = go.Bar(x=pv.index, y=pv[('ene-20', 'Violencia familiar')], name = 'VIOLENCIA FAMILIAR')
-gra1 = go.Bar(x=pv.index, y=pv[('ene-20', 'Lesiones')], name = 'LESIONES')
-graf1 = go.Bar(x=pv.index, y=pv[('ene-20', 'Otros delitos del Fuero Común')], name = 'OTROS DELITOS DEL FUERO COMÚN')
-grafi1 = go.Bar(x=pv.index, y=pv[('ene-20', 'Daño a la propiedad')], name = 'DAÑO A LA PROPIEDAD')
-grafic1 = go.Bar(x=pv.index, y=pv[('ene-20', 'Fraude')], name = 'FRAUDE')
-grafica1 = go.Bar(x=pv.index, y=pv[('ene-20', 'Amenazas')], name = 'AMENAZAS')
+#g1 = go.Bar(x=pv.index, y=pv[('ene-20', 'Robo')], name = 'ROBO')
+#gr1 = go.Bar(x=pv.index, y=pv[('ene-20', 'Violencia familiar')], name = 'VIOLENCIA FAMILIAR')
+#gra1 = go.Bar(x=pv.index, y=pv[('ene-20', 'Lesiones')], name = 'LESIONES')
+#graf1 = go.Bar(x=pv.index, y=pv[('ene-20', 'Otros delitos del Fuero Común')], name = 'OTROS DELITOS DEL FUERO COMÚN')
+#grafi1 = go.Bar(x=pv.index, y=pv[('ene-20', 'Daño a la propiedad')], name = 'DAÑO A LA PROPIEDAD')
+#grafic1 = go.Bar(x=pv.index, y=pv[('ene-20', 'Fraude')], name = 'FRAUDE')
+#grafica1 = go.Bar(x=pv.index, y=pv[('ene-20', 'Amenazas')], name = 'AMENAZAS')
 
 # Display figure
 
