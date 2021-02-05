@@ -85,7 +85,7 @@ numpy==1.19.5
 olefile==0.46
 openpyxl==3.0.6
 packaging==20.8
-pandas==1.2.0
+pandas==1.1.5
 pandocfilters==1.4.2
 parso==0.8.1
 pickleshare==0.7.5
