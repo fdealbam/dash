@@ -1,6 +1,5 @@
 
-cplotly-express ==0.4.1
-
+plotly-express ==0.4.1
 os-sys ==2.1.4
 pandas ==1.2.1
 seaborn ==0.11.1
@@ -11,6 +10,3 @@ folium ==0.12.1
 dash-table ==4.11.2
 dash-bootstrap-components ==0.11.2
 datetime2 ==0.7.5
-
-
-
