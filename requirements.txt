@@ -1,6 +1,6 @@
 
 plotly-express ==0.4.1
-os-sys ==1.1.5
+os-sys ==2.1.4
 pandas ==1.1.5
 seaborn ==0.11.1
 dash ==1.19.0
